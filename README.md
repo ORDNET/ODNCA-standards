@@ -18,7 +18,7 @@ adopted.
 |---|---|---|
 | ODNCA-STD-001 | [SNS Resolution Specification](ODNCA-STD-001-SNS-Resolution-Specification.md) — claims, transfers, signed resolution | v1.0 Adopted |
 | ODNCA-STD-002 | Protocol Parameters Registry — every magic value, versioned | Living — served live at [odnca.org](https://odnca.org), no static document by design |
-| ODNCA-STD-003 | SNS-NAME-1 — the name format and validity rules | v1.0 Adopted — *source pending upload* |
+| ODNCA-STD-003 | [SNS-NAME-1 — Name Format Standard](ODNCA-STD-003-SNS-NAME-1.md) — normalization, structure, character rules | v1.0 Adopted |
 | ODNCA-STD-004 | [The Root Registry](ODNCA-STD-004-Root-Registry.md) — canonical namespaces, TLD activation, commitments | v1.0 Adopted |
 | ODNCA-STD-005 | [URI Schemes](ODNCA-STD-005-URI-Schemes.md) — `sns:` and `ord://` | v1.0 Adopted |
 | ODNCA-STD-006 | [Data Channels](ODNCA-STD-006-Data-Channels.md) — payment, mail, content | v1.0 Adopted |
