@@ -1,0 +1,68 @@
+# ODNCA-standards
+
+The adopted standards, policies, and governance documents of **ODNCA — the
+ORDnet Decentralized Names Coordination Authority**: the coordination layer
+for on-chain naming (SNS and related protocols) on the BSV blockchain.
+
+Human-readable editions (styled PDFs) and the transparency toolkit live at
+**https://odnca.org**. This repository holds the markdown sources — the
+canonical, diffable text. Where a rendered edition and this text ever
+disagree, this text is authoritative from the commit in which it was
+adopted.
+
+## The documents
+
+### Standards
+
+| ID | Title | Status |
+|---|---|---|
+| ODNCA-STD-001 | [SNS Resolution Specification](ODNCA-STD-001-SNS-Resolution-Specification.md) — claims, transfers, signed resolution | v1.0 Adopted |
+| ODNCA-STD-002 | Protocol Parameters Registry — every magic value, versioned | Living — served live at [odnca.org](https://odnca.org), no static document by design |
+| ODNCA-STD-003 | SNS-NAME-1 — the name format and validity rules | v1.0 Adopted — *source pending upload* |
+| ODNCA-STD-004 | [The Root Registry](ODNCA-STD-004-Root-Registry.md) — canonical namespaces, TLD activation, commitments | v1.0 Adopted |
+| ODNCA-STD-005 | [URI Schemes](ODNCA-STD-005-URI-Schemes.md) — `sns:` and `ord://` | v1.0 Adopted |
+| ODNCA-STD-006 | [Data Channels](ODNCA-STD-006-Data-Channels.md) — payment, mail, content | v1.0 Adopted |
+| ODNCA-STD-007 | [SNSP Registration Protocol](ODNCA-STD-007-SNSP-Registration-Protocol.md) — the registrar claim flow | v1.0 Adopted |
+| ODNCA-STD-008 | [Registration Data (WHOIS)](ODNCA-STD-008-Registration-Data-WHOIS.md) — lookup surface and RDAP mapping | v1.0 Adopted |
+| ODNCA-STD-009 | [Paymail Compatibility Profile](ODNCA-STD-009-Paymail-Compatibility-Profile.md) — web3 names for paymail wallets, one extra line | v1.0 Adopted |
+
+### Policies
+
+| ID | Title |
+|---|---|
+| ODNCA-POL-001 | [TLD Fair-Use Policy](ODNCA-POL-001-TLD-Fair-Use-Policy.md) |
+| ODNCA-POL-002 | [Registrar Requirements](ODNCA-POL-002-Registrar-Requirements.md) |
+| ODNCA-POL-003 | [Dispute & Abuse Policy](ODNCA-POL-003-Dispute-and-Abuse-Policy.md) |
+
+### Trust & governance
+
+| ID | Title |
+|---|---|
+| ODNCA-TF-001 | [Trust Framework](ODNCA-TF-001-Trust-Framework.md) |
+| ODNCA-GOV-001 | [Governance](ODNCA-GOV-001-Governance.md) |
+
+## Anchored on-chain
+
+The namespace these documents govern is not just described — it is
+committed. The SNS state is periodically frozen as a merkle root and
+inscribed on the BSV chain (genesis commit: txid
+`b65b03f0…e60c6ec9`, height 961546, 651,482 names), with each commit
+embedding the SHA-256 of its frozen ruleset. Verification tooling:
+[ODNCA-verify](https://github.com/ORDNET/ODNCA-verify).
+
+## Changing a standard
+
+Proposals, the 14-day review window, and decision publication are defined in
+[ODNCA-GOV-001 §5](ODNCA-GOV-001-Governance.md). Issues and pull requests on
+this repository are a welcome way to file comments and proposals; adoption
+decisions are published with reasons and, where they change recognised
+state, anchored on-chain (ODNCA-STD-004 §3.2).
+
+## License
+
+MIT © ORDnet / ODNCA
+
+---
+
+*ODNCA — the ORDnet Decentralized Names Coordination Authority.
+Don't trust us — recompute us.*
