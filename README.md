@@ -1,6 +1,6 @@
 # ODNCA-standards
 
-[![documents](https://img.shields.io/badge/documents-13_adopted-2b8a3e?style=flat-square)](#the-documents)
+[![documents](https://img.shields.io/badge/documents-14_adopted-2b8a3e?style=flat-square)](#the-documents)
 [![vectors](https://img.shields.io/badge/conformance-test_vectors-364fc7?style=flat-square)](test-vectors/)
 [![anchored](https://img.shields.io/badge/state-committed_on--chain_daily-5f3dc4?style=flat-square)](https://odnca.org/snapshots/sns-latest.meta.json)
 [![license](https://img.shields.io/badge/license-MIT-6a737d?style=flat-square)](LICENSE)
@@ -30,6 +30,8 @@ adopted.
 | ODNCA-STD-007 | [SNSP Registration Protocol](ODNCA-STD-007-SNSP-Registration-Protocol.md) — the registrar claim flow | v1.0 Adopted |
 | ODNCA-STD-008 | [Registration Data (WHOIS)](ODNCA-STD-008-Registration-Data-WHOIS.md) — lookup surface and RDAP mapping | v1.0 Adopted |
 | ODNCA-STD-009 | [Paymail Compatibility Profile](ODNCA-STD-009-Paymail-Compatibility-Profile.md) — web3 names for paymail wallets, one extra line | v1.0 Adopted |
+| ODNCA-STD-010 | [ORD-META-1 — On-Chain Content Discovery](ODNCA-STD-010-ORD-META-1.md) — OP_RETURN discovery records, trust levels, name-bound canonicalization | v1.0 Adopted |
+| ODNCA-STD-011 | [WEB3-ACTIONS-1 — The URI Scheme Family](ODNCA-STD-011-WEB3-ACTIONS-1.md) — `sns:` for payments, `ord://` for content, `ordmail:` for web3 mail | v0.5 Draft |
 
 ### Policies
 
